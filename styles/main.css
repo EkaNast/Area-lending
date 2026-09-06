@@ -4,6 +4,7 @@
 @import './components.css';
 @import './blocks/index.css';
 @import './blocks/info.css';
+@import './blocks/cards.css';
 
 body {
     min-width: 375px;

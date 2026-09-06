@@ -1,0 +1,9 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 265px;
+}
+
+.card {
+    border-top: 1px solid var(--accent-divider1);
+}

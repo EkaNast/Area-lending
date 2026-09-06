@@ -1,0 +1,53 @@
+.company {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.company__caption {
+    /* color: var(--paragraph-color);
+    font-weight: 300;
+    letter-spacing: -0.5%;
+    line-height: 140%;
+    */
+}
+
+.logos {
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px 40px;
+}
+
+.logos__item {
+    display: flex;
+    width: 150px;
+    height: 82px;
+}
+
+@media (max-width: 1279px) {
+
+    .logos {
+        padding: 0;
+        grid-template-columns: repeat(4, 1fr);
+
+        .logoipsum {
+            grid-column: 2 / span 1;
+        }
+    }
+
+}
+
+@media (max-width: 799px) {
+
+    .logos {
+        grid-template-columns: repeat(auto-fit,
+                minmax(150px, 1fr));
+
+        .logoipsum {
+            grid-column: unset;
+        }
+    }
+}

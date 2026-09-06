@@ -1,0 +1,58 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 22px;
+    gap: 2px;
+    width: auto;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+/* Стрелка внутри кнопки */
+.button__arrow {
+    position: relative;
+    width: 7px;
+    height: 20px;
+
+    /* &::after {
+        content: "";
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        width: 6px;
+        height: 6px;
+    } */
+}
+
+.button-primary {
+    background: var(--accent-color1);
+    color: var(--button-color);
+
+    &:hover {
+        background: var(--accent-color3);
+    }
+}
+
+.button-secondary {
+    background: var(--accent-color2);
+    color: var(--link-color);
+
+    &:hover {
+        background: var(--accent-color3);
+        color: var(--button-color);
+    }
+}
+
+.icon-button {
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.burger-button {}

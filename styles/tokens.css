@@ -1,0 +1,22 @@
+:root {
+  --accent-color1: #485C11;
+  --accent-color2: #DFECC6;
+  --accent-color3: #8E9C78;
+  --accent-color4: #000000;
+  --accent-color5: #6F6F6F;
+  --accent-color6: #929292;
+  --accent-divider1: #E9E9E9;
+  --accent-divider1: #E9E9E9;
+  --accent-background1: #FFFFFF;
+
+  --heading-color: var(--accent-color4);
+  --paragraph-color: var(--accent-color5);
+  --captions-color: var(--accent-color1);
+  --link-color: var(--accent-color4);
+  --bg-color: var(--accent-background1);
+  --button-color: var(--accent-background1);
+
+  --container-size-mobile: 100%;
+  --container-size-tablet: 720px;
+  --container-size-desktop: 1200px;
+}

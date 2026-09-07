@@ -5,6 +5,8 @@
 @import './blocks/index.css';
 @import './blocks/info.css';
 @import './blocks/cards.css';
+@import './blocks/hero.css';
+@import './blocks/figure.css';
 
 body {
     min-width: 375px;
